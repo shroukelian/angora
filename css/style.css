@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imgs/drew-coffman-1872.jpg);
+    background-size: cover; 
+    background-position: center;
+}
+.logo{
+    width: 30%;
+    margin-left: 40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo img{
+    width: 50%;
+}
+.nav-links{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 250px;
+}
+.nav-links ul{
+    list-style-type: none;  
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+.nav-links ul li a:hover{
+    color:  #cfa063;
+    transition: 1s;
+} 
+.nav-links ul li{
+    display: inline-block;
+    padding: 15px ;
+}
+/* .nav{
+    position: fixed;
+    display: inline-block;
+    padding-top: 21px;
+}
+.nav img{
+    width: 13%;
+    float: left;
+    margin-left: 28vh;
+}
+.nav ul{
+    float: right;
+    list-style-type: none;   
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 33px;
+font-size: 20px;
+}
+.nav ul li a:hover{
+    color:  #cfa063;
+    transition: 1s;
+} */
+
+.text-center{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 27vh;
+    font-size: 24px;
+}
+.text-center .list{
+    padding: 15px;
+    color: aliceblue;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: .35s;
+}
+.button1{
+    background-color: #847157;
+    border: none;
+}
+.button2{
+    background-color: transparent;
+    border: 2px white solid;
+}
+.button1:hover,
+.button2:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.sec2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image-container,
+.text-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    padding: 20px;
+}
+
+.image-container img{
+    max-width: 80%;
+}
+
+.text-container,
+.text-sec3{
+    text-align: left;
+}
+
+.text-container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.text-container p,
+.text-sec3 p ,
+.sec4 p,
+.text-sec5 p,
+.container-sec6 p{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.text-container ul,
+.text-sec5 ul,
+.container-sec6 ul {
+    list-style: none;
+}
+
+.text-container ul li,
+.text-sec5 ul li,
+.container-sec6 ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+
+}
+
+.text-container ul li i ,
+.text-sec5 ul li i,
+.container-sec6 ul li i{
+    margin-bottom: 5vh;
+    margin-right: 10px;
+    color: #847157;
+    font-size: 18px;
+}
+
+.sec3{
+    background-color: #eee;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.text-sec3,
+.image-sec3,
+.text-sec5,
+.image-sec5{
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    padding: 20px;
+}
+.image-sec3 img{
+    padding: 9vh;
+    max-width: 80%;
+
+}
+.sec4{
+    width: 100%;
+    margin-top: 50px;
+}
+.sec4 h2,
+.sec4 p {
+text-align: center;
+}
+
+.flex{
+    margin-left: 10vh;
+    margin-top: 70px;
+}
+.item-sec4{
+    display: inline-block;
+    width: 33%;
+}
+.item-sec4 p{
+    margin-left: 4vh;
+    text-align: left;
+}
+.item-sec4 img{
+    max-width: 90%;
+}
+.item-sec4 h2{
+    color: #3a3939;
+    font-size: 20px;
+}
+.sec5{
+    background-color: #eee;
+    width: 100%;
+    margin-top: 50px;
+}
+.text-sec5{
+    margin-left: 5vh;
+}
+footer{
+    background-color: #353330;
+    margin-top: 50px;
+}
+.sec6 {
+    background-color:#403d38;
+    width: 100%;
+}
+
+.container-sec6{
+    /* background-image: url(../imgs/transparent.png); */
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    color:#d8d6d6;
+    padding: 4vh;
+}
+.container-sec6 ul li{
+    margin-bottom: 5vh;
+    margin-right: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #4b4a4a;
+}
+.container-sec6 ul li a{
+    text-decoration: none;
+    color: #666;
+}
+
+.container-sec6 ul .last-li {
+    border: none;
+}
+.sec7{
+    width: 100%;
+    height: 39vh;
+}
+.img5{
+    margin: 3% 37%;
+}
+
+.social-icons{
+text-align: center;
+font-size: 30px;
+}
+.social-icons a {
+    color:  #bbb;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
